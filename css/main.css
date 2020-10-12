@@ -1,5 +1,5 @@
 html {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: 'Merriweather', serif;
   background-color: #eaeaea;
 }
@@ -21,7 +21,7 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 2fr 1fr ;
+  grid-template-columns: 50% 50% ;
   grid-auto-rows:min-content;
   grid-gap:2rem;
   width: 40vw;
