@@ -1,0 +1,108 @@
+html {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #eaeaea;
+}
+
+body {
+  padding:5rem 0;
+  color:#333F48;
+}
+
+a {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ae7f3d;
+}
+
+main {
+  display:grid;
+  grid-template-columns: 50% 50% ;
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.intro-block {
+  grid-column:1 / 3;
+}
+
+.statement {
+  grid-column:1 / 2;
+}
+
+.projects {
+  grid-column:2 / 3;
+}
+
+.item {
+  grid-column:1;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.definition {
+  grid-column:2;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Arial', Helvetica, sans-serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:5rem;
+  font-weight:800;
+}
+h2 {
+  font-size:2rem;
+}
+h3 {
+  font-size:2rem;
+  font-weight:100;
+
+}
+h4 {
+  font-size:2rem;
+}
+
+
+li {
+  font-size: 0.8rem;
+  font-family: 'Arial', Helvetica, sans-serif;
+  line-height: 0.8;
+  padding: .5rem 0;
+}
+
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+}
+
+.location {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-family: 'Times New Roman', Times, serif;
+}
