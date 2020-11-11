@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(1420, 800);
 
   // set up the font
   textFont(font);
