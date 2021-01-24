@@ -19,13 +19,11 @@ header {
 
 }
 
-h1{
-  size: 3em;
-}
 
 
 h2{
 letter-spacing: 0.3;
+font-family:
 }
 
 
@@ -36,7 +34,7 @@ border-width: 1px;
 border-color: #FFF;
 border-radius: 15%;
  padding:17px;
-  margin: 16px auto;
+  margin: 18px auto;
 max-width: 70%;
 font-family: "Times New Roman", Times, serif;
 color: #000;
